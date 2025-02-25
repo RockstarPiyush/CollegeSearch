@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>College Search Portal</h1>
+        <p>Find the best colleges based on your preferences!</p>
+        <a href="login.html" class="login-link">Login</a> <!-- Login link -->
+    </header>
+    
+    <section class="search-section">
+        <h2>Search for Colleges</h2>
+        <form id="college-search-form">
+            <label for="location">Preferred Location:</label>
+            <input type="text" id="location" name="location" placeholder="Enter location (e.g., city or state)">
+
+            <label for="course">Preferred Course:</label>
+            <input type="text" id="course" name="course" placeholder="Enter course name (e.g., Engineering, Arts)">
+
+            <label for="budget">Maximum Budget (in Rupees):</label>
+            <input type="number" id="budget" name="budget" placeholder="Enter your budget">
+
+            <button type="submit">Search Colleges</button>
+        </form>
+    </section>
+
+    <section class="results-section">
+        <h2>Search Results</h2>
+        <div id="results"></div>
+    </section>
+
+    <footer>
+        <p>Made with ❤️ by PYAARE PIYUSH BABU  </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
